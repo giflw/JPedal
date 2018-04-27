@@ -11,6 +11,8 @@ The code is coming from its JPedal roots but the Swing/AWT GUI has been replaced
 If you would like to contribute you are welcome to do so - just create an issue (with an attached patch) or do a pull request and it will be integrated.
 This is however no bug reporting or "please fix my bugs" place - for that head over to the [JPedal support forum](http://support.idrsolutions.com/forums/forum/java-pdf-library-support-forum) or to [Stackoverflow](http://stackoverflow.com/questions/tagged/jpedal).
 
+Please note that for a sucessfull maven build the local maven .settings configuration needs to be connected to a (central) maven repository.
+
 Changes so far:
 ---------------
 - moved from the archaic ANT build system to maven

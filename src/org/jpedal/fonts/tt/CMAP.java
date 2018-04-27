@@ -750,7 +750,6 @@ public class CMAP extends Table {
 	 * returns hasFormat4 Method added in order to skip unicode lookup in cmapwriter
 	 * 
 	 * @return hasFormat4
-	 * @see createFormat4forTT
 	 * */
 	public boolean hasFormat4() {
 		return this.hasFormat4;

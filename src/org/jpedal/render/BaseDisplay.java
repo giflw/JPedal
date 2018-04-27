@@ -1202,7 +1202,7 @@ public class BaseDisplay implements DynamicVectorRenderer {
 	/**
 	 * return number of image in display queue or -1 if none
 	 * 
-	 * @return
+	 * @return number of image in display queue or -1 if none (but currently hardcoded to 0)
 	 */
 	@Override
 	public int isInsideImage(int x, int y) {
@@ -1225,7 +1225,7 @@ public class BaseDisplay implements DynamicVectorRenderer {
 	/**
 	 * return number of image in display queue or -1 if none
 	 * 
-	 * @return
+	 * @return number of image in display queue or -1 if none (but currently hardcoded to 0)
 	 */
 	@Override
 	public int getObjectUnderneath(int x, int y) {
@@ -1245,7 +1245,6 @@ public class BaseDisplay implements DynamicVectorRenderer {
 	/**
 	 * just for printing
 	 * 
-	 * @return
 	 */
 	@Override
 	public void stopG2HintSetting(boolean isSet) {
@@ -1416,7 +1415,7 @@ public class BaseDisplay implements DynamicVectorRenderer {
 	/**
 	 * used by Pattern code internally (do not use)
 	 * 
-	 * @return
+	 * @return null (hardcoded)
 	 */
 	@Override
 	public BufferedImage getSingleImagePattern() {
@@ -1456,7 +1455,7 @@ public class BaseDisplay implements DynamicVectorRenderer {
 	/**
 	 * page scaling used by HTML code only
 	 * 
-	 * @return
+	 * @return scaling value
 	 */
 	@Override
 	public float getScaling() {
